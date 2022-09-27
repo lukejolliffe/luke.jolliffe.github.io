@@ -1,0 +1,57 @@
+body {
+    color: white;
+    font-family: 'Archivo Black', serif;
+    font-size: 38px;
+}
+.profile-img { 
+    width: 100%;
+    height: auto;
+}
+.logo-img {
+    width: 300px;
+    height: 300px;
+}
+.logo-img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    border-radius:50%;
+}
+.profile-image-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+strong {
+    color: #FF6A3D;
+}
+
+.side-image-wrapper {
+    height: 99%;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.side-image {
+    height: 100%;
+}
+
+.side-content {
+    float: left;
+    width: 50%;
+}
+
+.my-section {
+    padding-left: 7%;
+    background-color: #1A2238;
+}
+
+p {
+    margin-bottom: 5%;
+}
+
+.content {
+    margin-bottom: 20%;
+}

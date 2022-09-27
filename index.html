@@ -1,1 +1,76 @@
-Hello World
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/fullpage.css" />
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Archivo+Black">
+</head>
+<body>
+  <div id="fullpage">
+    <div class="section fp-section my-section">
+      <h1>Hello I'm <strong>Luke Jolliffe</strong></h1>
+      <div class="profile-image-wrapper">
+        <img
+          class="profile-img"
+          src="https://www.zanorg.net/bouletmaton/galerie/1664289819lKtUX.jpg"
+          alt="A charicature crudley dipicting what I look like"
+        />
+      </div>
+    </div>
+    <div class="section fp-section my-section">
+      <h2>My Communication Preferences are:</h2>
+      <p><strong>Slack</strong></p>
+      <div class="logo-image-wrapper">
+        <img class="logo-img" src="Slack_Mark.svg" />
+      </div>
+      <p><strong>Gmail</strong></p>
+      <div class="logo-image-wrapper">
+        <img class="logo-img" src="gmail.png" />
+      </div>
+    </div>
+    <div class="section fp-section my-section">
+      <div class="side-content">
+        <h2>Conditions I like to work in</h2>
+        <p class="content">Plenty of <strong>coffee</strong> available</p>
+        <p class="content">Headphones on</p>
+      </div>
+      <div class="side-image-wrapper">
+        <img
+          class="side-image"
+          src="DALL·E 2022-09-27 16.00.12 - Coffee beans melting into espresso.png"
+        />
+      </div>
+    </div>
+    <div class="section fp-section my-section">
+        <div class="side-content">
+      <h2>Things I love</h2>
+      <p class="content">Learning about <strong>accessibility</strong></p>
+      <p class="content">Challenging myself</p>
+        </div>
+      <div class="side-image-wrapper">
+        <img class="side-image" src="ben-kolde-bs2Ba7t69mM-unsplash.jpg" />
+      </div>
+    </div>
+    <div class="section fp-section my-section">
+        <div class="side-content">
+      <h2>Things I struggle with</h2>
+      <p class="content"><strong>Childcare</strong> - Mornings can be hectic with my child</p>
+      <p class="content">Starting conversations with new people</p>
+      <p class="content">Making things look pretty</p>
+        </div>
+      <div class="side-image-wrapper">
+        <img class="side-image" src="IMG_20210614_112948044_HDR_Original.jpg" />
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="javascript/fullpage.js"></script>
+  <script>
+    new fullpage("#fullpage", {
+      //options here
+      licenceKey: 'gplv3-license',
+      autoScrolling: true,
+      scrollHorizontally: true,
+    });
+  </script>
+</body>
